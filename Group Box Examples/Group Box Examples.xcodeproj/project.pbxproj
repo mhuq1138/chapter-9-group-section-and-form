@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517F416724ED7CE100BA4B87 /* Group_Box_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F415424ED7CDE00BA4B87 /* Group_Box_ExamplesApp.swift */; };
+		517F416824ED7CE100BA4B87 /* Group_Box_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F415424ED7CDE00BA4B87 /* Group_Box_ExamplesApp.swift */; };
+		517F416924ED7CE100BA4B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F415524ED7CDE00BA4B87 /* ContentView.swift */; };
+		517F416A24ED7CE100BA4B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F415524ED7CDE00BA4B87 /* ContentView.swift */; };
+		517F416B24ED7CE100BA4B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517F415624ED7CE100BA4B87 /* Assets.xcassets */; };
+		517F416C24ED7CE100BA4B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517F415624ED7CE100BA4B87 /* Assets.xcassets */; };
+		517F417624ED7CFB00BA4B87 /* SimplyGroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417524ED7CFB00BA4B87 /* SimplyGroupBoxView.swift */; };
+		517F417724ED7CFB00BA4B87 /* SimplyGroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417524ED7CFB00BA4B87 /* SimplyGroupBoxView.swift */; };
+		517F417924ED885F00BA4B87 /* CustomGroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417824ED885F00BA4B87 /* CustomGroupBoxView.swift */; };
+		517F417A24ED885F00BA4B87 /* CustomGroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417824ED885F00BA4B87 /* CustomGroupBoxView.swift */; };
+		517F417C24ED8A2400BA4B87 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417B24ED8A2400BA4B87 /* Person.swift */; };
+		517F417D24ED8A2400BA4B87 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F417B24ED8A2400BA4B87 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		517F415424ED7CDE00BA4B87 /* Group_Box_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group_Box_ExamplesApp.swift; sourceTree = "<group>"; };
+		517F415524ED7CDE00BA4B87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		517F415624ED7CE100BA4B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517F415B24ED7CE100BA4B87 /* Group Box Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Box Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517F415E24ED7CE100BA4B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517F416324ED7CE100BA4B87 /* Group Box Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Box Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517F416524ED7CE100BA4B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517F416624ED7CE100BA4B87 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		517F417524ED7CFB00BA4B87 /* SimplyGroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyGroupBoxView.swift; sourceTree = "<group>"; };
+		517F417824ED885F00BA4B87 /* CustomGroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGroupBoxView.swift; sourceTree = "<group>"; };
+		517F417B24ED8A2400BA4B87 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517F415824ED7CE100BA4B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517F416024ED7CE100BA4B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517F414E24ED7CDE00BA4B87 = {
+			isa = PBXGroup;
+			children = (
+				517F415324ED7CDE00BA4B87 /* Shared */,
+				517F415D24ED7CE100BA4B87 /* iOS */,
+				517F416424ED7CE100BA4B87 /* macOS */,
+				517F415C24ED7CE100BA4B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517F415324ED7CDE00BA4B87 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				517F415424ED7CDE00BA4B87 /* Group_Box_ExamplesApp.swift */,
+				517F415524ED7CDE00BA4B87 /* ContentView.swift */,
+				517F417524ED7CFB00BA4B87 /* SimplyGroupBoxView.swift */,
+				517F417824ED885F00BA4B87 /* CustomGroupBoxView.swift */,
+				517F417B24ED8A2400BA4B87 /* Person.swift */,
+				517F415624ED7CE100BA4B87 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		517F415C24ED7CE100BA4B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517F415B24ED7CE100BA4B87 /* Group Box Examples.app */,
+				517F416324ED7CE100BA4B87 /* Group Box Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517F415D24ED7CE100BA4B87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				517F415E24ED7CE100BA4B87 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		517F416424ED7CE100BA4B87 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				517F416524ED7CE100BA4B87 /* Info.plist */,
+				517F416624ED7CE100BA4B87 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517F415A24ED7CE100BA4B87 /* Group Box Examples (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517F416F24ED7CE100BA4B87 /* Build configuration list for PBXNativeTarget "Group Box Examples (iOS)" */;
+			buildPhases = (
+				517F415724ED7CE100BA4B87 /* Sources */,
+				517F415824ED7CE100BA4B87 /* Frameworks */,
+				517F415924ED7CE100BA4B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Group Box Examples (iOS)";
+			productName = "Group Box Examples (iOS)";
+			productReference = 517F415B24ED7CE100BA4B87 /* Group Box Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517F416224ED7CE100BA4B87 /* Group Box Examples (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517F417224ED7CE100BA4B87 /* Build configuration list for PBXNativeTarget "Group Box Examples (macOS)" */;
+			buildPhases = (
+				517F415F24ED7CE100BA4B87 /* Sources */,
+				517F416024ED7CE100BA4B87 /* Frameworks */,
+				517F416124ED7CE100BA4B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Group Box Examples (macOS)";
+			productName = "Group Box Examples (macOS)";
+			productReference = 517F416324ED7CE100BA4B87 /* Group Box Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517F414F24ED7CDE00BA4B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					517F415A24ED7CE100BA4B87 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					517F416224ED7CE100BA4B87 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 517F415224ED7CDE00BA4B87 /* Build configuration list for PBXProject "Group Box Examples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517F414E24ED7CDE00BA4B87;
+			productRefGroup = 517F415C24ED7CE100BA4B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517F415A24ED7CE100BA4B87 /* Group Box Examples (iOS) */,
+				517F416224ED7CE100BA4B87 /* Group Box Examples (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517F415924ED7CE100BA4B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F416B24ED7CE100BA4B87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517F416124ED7CE100BA4B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F416C24ED7CE100BA4B87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517F415724ED7CE100BA4B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F417C24ED8A2400BA4B87 /* Person.swift in Sources */,
+				517F416924ED7CE100BA4B87 /* ContentView.swift in Sources */,
+				517F416724ED7CE100BA4B87 /* Group_Box_ExamplesApp.swift in Sources */,
+				517F417624ED7CFB00BA4B87 /* SimplyGroupBoxView.swift in Sources */,
+				517F417924ED885F00BA4B87 /* CustomGroupBoxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517F415F24ED7CE100BA4B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F417D24ED8A2400BA4B87 /* Person.swift in Sources */,
+				517F416A24ED7CE100BA4B87 /* ContentView.swift in Sources */,
+				517F416824ED7CE100BA4B87 /* Group_Box_ExamplesApp.swift in Sources */,
+				517F417724ED7CFB00BA4B87 /* SimplyGroupBoxView.swift in Sources */,
+				517F417A24ED885F00BA4B87 /* CustomGroupBoxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		517F416D24ED7CE100BA4B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		517F416E24ED7CE100BA4B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		517F417024ED7CE100BA4B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Group-Box-Examples";
+				PRODUCT_NAME = "Group Box Examples";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		517F417124ED7CE100BA4B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Group-Box-Examples";
+				PRODUCT_NAME = "Group Box Examples";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517F417324ED7CE100BA4B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Group-Box-Examples";
+				PRODUCT_NAME = "Group Box Examples";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		517F417424ED7CE100BA4B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R77BD8MPA8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazharul.huq.Group-Box-Examples";
+				PRODUCT_NAME = "Group Box Examples";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517F415224ED7CDE00BA4B87 /* Build configuration list for PBXProject "Group Box Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F416D24ED7CE100BA4B87 /* Debug */,
+				517F416E24ED7CE100BA4B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517F416F24ED7CE100BA4B87 /* Build configuration list for PBXNativeTarget "Group Box Examples (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F417024ED7CE100BA4B87 /* Debug */,
+				517F417124ED7CE100BA4B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517F417224ED7CE100BA4B87 /* Build configuration list for PBXNativeTarget "Group Box Examples (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F417324ED7CE100BA4B87 /* Debug */,
+				517F417424ED7CE100BA4B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517F414F24ED7CDE00BA4B87 /* Project object */;
+}
